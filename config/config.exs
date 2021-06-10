@@ -13,10 +13,10 @@ config :poll_api,
 # Configures the endpoint
 config :poll_api, PollApiWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "4OeJFptDxamaFueKABqc8m0HeopMvD8oY3to8dKuP2MIgGBcbwlInbQZ9lm3Ad5w",
+  secret_key_base: "7ec90mjjR97hqDxPXdf7YWWNC8Iga16yrxsgaDgS1tIVgu1UUZjODPn5e0JsOkEk",
   render_errors: [view: PollApiWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: PollApi.PubSub,
-  live_view: [signing_salt: "8JdSiSDW"]
+  live_view: [signing_salt: "T6PjtaYs"]
 
 # Configures Elixir's Logger
 config :logger, :console,

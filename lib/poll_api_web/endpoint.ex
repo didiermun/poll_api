@@ -7,7 +7,7 @@ defmodule PollApiWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_poll_api_key",
-    signing_salt: "kjgRdqqc"
+    signing_salt: "Z2ROkc8A"
   ]
 
   socket "/socket", PollApiWeb.UserSocket,
