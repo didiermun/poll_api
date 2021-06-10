@@ -7,6 +7,7 @@ defmodule PollApiWeb.Router do
 
   scope "/api", PollApiWeb do
     pipe_through :api
+    resources "/polls", PollController, except: [:new, :edit]
   end
 
   # Enables LiveDashboard only for development
