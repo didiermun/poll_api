@@ -40,7 +40,7 @@ defmodule PollApi.MixProject do
       {:phoenix_live_dashboard, "~> 0.4"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 0.4"},
-      {:gettext, "~> 0.18"},
+      {:gettext, "~> 0.24"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"}
     ]
